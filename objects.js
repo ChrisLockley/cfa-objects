@@ -147,7 +147,7 @@ finally {
 // unless error inside catch
 console.log("this will still be executed"); 
 
-let func = function(stringBruh) {
+let funct = function(stringBruh) {
     try {
         if (typeof stringBruh === 'string') {
             throw "must be number"
@@ -164,6 +164,5 @@ let func = function(stringBruh) {
         console.log(err)
     }
 }
-console.log(func(12))
-
+console.log(funct(12))
 console.log("lol")
